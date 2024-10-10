@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Games Delight</title>
+    <link rel="stylesheet" href="assets-light/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <button id="langChange" type="button" onclick="changeLanguage()">AR</button>
+    <div id="home-img"><img src="assets-light/images/remote-desktop.png" alt=""></div>
+    <div class="rectangle">
+        <div class="rec-title">
+            <div class="welcome">Welcome to</div>
+            <div class="rec-name"><span id="firstname">Games </span><span style="color: #000000;" id="surname">Delight</span></div>
+        </div>
+        <div class="description">
+            <div class="mobile-text">mobile number</div>
+            <div class="descrip-text">we will send you One time password on your phone number.</div>
+        </div>
+        <form action="">
+            <div class="input-box pulse">
+                <div id="input-text">Enter mobile number</div>
+                <div id="mob-inital">+441</div>
+                <div id="vline"></div>
+                <input type="tel" id="mob-input" maxlength="8">
+            </div>
+            <div id="new-input-box">
+            </div>
+            <button id="subscribebtn" type="submit" disabled>subscribe</button>
+            <div id="loader"><img src="assets-light/Loader.gif" alt=""></div>
+        </form>
+        <div class="rate">Start at just XXXX/Weekly</div>
+        <div class="more-info">
+            <ul style="margin: 0; padding: 0;">
+                <li>No commitment, you can cancel any time by visit My account Section for Unsub.</li>
+                <li>The cost
+                    charge is added to the phone bill or deducted from your prepaid credit.</li>
+                <li>Please connect with support team for
+                    any help. Write us on : support@xxxxx.info</li>
+            </ul>
+        </div>
+    </div>
+    <script src="assets-light/msisdn.js"></script>
+</body>
+
+</html>
